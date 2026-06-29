@@ -1,0 +1,209 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+#hero {
+    background-color: #1F2937;
+    font-family: Roboto;
+    padding: 0px 170px;
+    padding-top: 12px;
+    padding-bottom: 140px;
+}
+
+#hero .header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+#hero .header .header-logo {
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+#hero .header .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+#hero .header .links .link-text {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+#hero .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+}
+
+#hero .header-content .hero-text {
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.hero-text .title {
+    font-family: Roboto, sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-text .subtext {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-text .button {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border: none;
+    padding: 8px 32px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.header-content .image {
+    object-fit: cover;
+    height: 230px;
+    width: 550px;
+    flex: 0 0 auto;
+}
+
+#info {
+    padding-top: 48px;
+    text-align: center;
+    margin-bottom: 96px;
+}
+
+#info .header {
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 48px;
+}
+
+#info .content {
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .item {
+    text-align: center;
+}
+
+.item .image {
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.item .text {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    color: #1F2937;
+    width: 170px;
+}
+
+#quote {
+    background-color: #E5E7EB;
+    padding: 96px 330px;
+}
+
+#quote .text {
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+#quote .author {
+    text-align: end;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+#cta {
+    background-color: #3882F6;
+    margin: 96px 250px;
+    padding: 48px 96px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cta .text .title {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#cta .text .subtext {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+#cta button {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #F9FAF8;
+    background-color: transparent;
+    padding: 8px 32px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 32px;
+}
+
+#footer .text {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    color: #F9FAF8;
+}
